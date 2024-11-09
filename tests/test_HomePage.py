@@ -16,5 +16,3 @@ class TestHomePage():
         wait.until(presence_of_element_located((By.XPATH,"//a[text()='Custom Photo Frame With Calendar']"))).click()
         driver.find_element(By.NAME,"add-to-cart").click()
         driver.find_element(By.CLASS_NAME,"icon-shopping-basket").click()
-
-        time.sleep(5)
