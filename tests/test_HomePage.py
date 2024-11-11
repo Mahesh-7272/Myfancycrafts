@@ -17,4 +17,5 @@ class TestHomePage():
         driver.find_element(By.NAME,"add-to-cart").click()
         driver.find_element(By.CLASS_NAME,"icon-shopping-basket").click()
         driver.find_element(By.CLASS_NAME,"icon-shopping-basket").click()
+        driver.find_element(By.CLASS_NAME,"icon-shopping-basket").send_keys()
 
